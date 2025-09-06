@@ -7,4 +7,3 @@ vim.keymap.set({ 'v', 'x' }, '<', '<gV', opts)                        -- Stay in
 vim.keymap.set({ 'v', 'x' }, '>', '>gV', opts)                        -- Stay in visual mode after indent width >>.
 
 vim.keymap.set('v', 'p', '"_dP')  -- Paste/replace without losing text.
-
