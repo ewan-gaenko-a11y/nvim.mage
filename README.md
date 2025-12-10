@@ -13,7 +13,7 @@ Personal Neovim setup tuned for smooth navigation, batteries-included editing, a
 
 ## Highlights
 - Plugin manager: [`lazy.nvim`](https://github.com/folke/lazy.nvim)
-- UI/ux: Everforest colors, global statusline via `lualine`, `dressing.nvim` prompts, and `smear-cursor.nvim` for motion trails
+- UI/ux: Everforest colors, global statusline via `lualine`, `smear-cursor.nvim` for motion trails
 - Editing: `auto-pairs`, `nvim-surround`, `mini.comment` on `<leader>/`, yank/definition highlighting via `vim-illuminate`
 - Navigation & search: Telescope (`<leader>ff`/`<leader>gf`/`<leader>fs`), Neo-tree reveal on `<leader>o`, window nav on `<C-h/j/k/l>`, tab hop on `Alt-j/k`
 - LSP & diagnostics: Mason for tools, inline diagnostics via `tiny-inline-diagnostic` (`<leader>dt`)

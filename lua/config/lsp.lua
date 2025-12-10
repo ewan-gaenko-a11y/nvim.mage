@@ -31,6 +31,7 @@ vim.api.nvim_create_autocmd('LspAttach', {
 })
 
 vim.lsp.enable('intelephense')
+vim.lsp.enable('ts_ls')
 -- These are just examples. Replace them with the language
 -- servers you have installed in your system
 -- require('lspconfig').ts_ls.setup({})
