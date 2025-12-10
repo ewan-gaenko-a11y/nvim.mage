@@ -1,6 +1,8 @@
 return {
-  "catppuccin/nvim", 
-  name = "catppuccin", 
-  priority = 1000 
+  'sainnhe/everforest',
+  config = 
+    function()
+      vim.cmd('colorscheme everforest')
+    end,
 }
 

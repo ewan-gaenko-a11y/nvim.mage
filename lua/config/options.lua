@@ -12,3 +12,5 @@ vim.opt.swapfile = false
 
 -- hehe system clipboard
 vim.api.nvim_set_option("clipboard", "unnamed")
+vim.opt.guifont = "0xProto:h14"
+
